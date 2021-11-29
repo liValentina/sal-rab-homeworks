@@ -9,7 +9,7 @@ function parseProducts(json) {
     // Преобразуйте строку json, переданную как аргумент функции,
     // в объект с помощью функции JSON.parse(json)
     // и запишите в переменную data  
-    // Верните как результат функции ПЕРЕМЕННУЮ (https://github.com/netology-ds-team/sal-rab-homeworks/blob/master/task_4/readme.md) 
+    // Верните как результат функции ПЕРЕМЕННУЮ 
     //products объекта data
 }
 
