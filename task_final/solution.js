@@ -31,10 +31,10 @@
 //         }
 //      ]
 //    }
-// }
+// }// - объект с адресом доставки: {street, house, entrance, floor, flat}
 
 function sendRequest(name, phone, address, goods, sum) {
-       address = {  street : "street" ,   house : "house" ,   entrance : "entrance" ,   floor : "floor" , flat : "flat"};
+       address =  `ул. ${address.street } , дом  ${ address.house } ,  ${ address.entrance } подъезд,  ${ address.floor } этаж, кв  ${ address.flat }`
     let client = name + ' ' + phone ;     
     let order = { address : address , sum : sum } ;       
     let data_goods = [ ];
